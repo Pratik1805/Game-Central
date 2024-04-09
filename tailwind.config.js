@@ -14,6 +14,8 @@ export default {
 
       colors:{
         'primary': '#000000',
+        'secondary': '#FA9021',
+        'textColor': '#E87D0E'
       },
       fontFamily:{
         palanquin: ['Palanquin', 'sans-serif'],
