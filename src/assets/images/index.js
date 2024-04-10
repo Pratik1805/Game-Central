@@ -1,7 +1,7 @@
-import game1 from './game1.svg';
-import game2 from './game2.svg';
-import game3 from './game3.svg';
-import game4 from './game4.svg';
+import cyberPunk from './cyberpunk.png';
+import ghost from './ghost_of_tsushima.png';
+import gta from './gta.png';
+import rdr2 from './red_dead_2.png';
 import joyStick from './joy_stick 1.svg';
 import map from './map.svg';
 import Project1 from './Project1.svg';
@@ -17,10 +17,10 @@ import wave1 from './wave1.svg';
 import wave2 from './wave2.svg';
 
 export {
-    game1,
-    game2,
-    game3,
-    game4,
+    cyberPunk,
+    ghost,
+    gta,
+    rdr2,
     joyStick,
     map,
     Project1,

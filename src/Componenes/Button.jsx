@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Button = ({label}) => {
+const Button = ({ label }) => {
   return (
-    <div className=' bg-secondary rounded-md px-8 py-4'>
-      <button className=' text-white font-palanquin text-2xl'>{label}</button>
-    </div>
-  )
-}
+    <button className="bg-secondary rounded-md px-4 py-3 text-white font-palanquin text-2xl hover:bg-orange-500 hover:border-orange-200 hover:border-2">
+      {label}
+    </button>
+  );
+};
 
-export default Button
+export default Button;
