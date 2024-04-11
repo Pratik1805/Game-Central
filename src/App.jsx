@@ -1,4 +1,4 @@
-import Nav from "./Componenes/Nav";
+import Nav from "./Components/Nav";
 import { Hero, Trending } from "./Sections";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <section className=" bg-primary padding">
           <Hero/>
         </section>
-        <section className=" bg-primary padding">
+        <section className=" bg-primary padding" id='trending'>
           <Trending/>
         </section>
       </main>

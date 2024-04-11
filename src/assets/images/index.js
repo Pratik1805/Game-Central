@@ -1,5 +1,5 @@
 import cyberPunk from './cyberpunk.png';
-import ghost from './ghost_of_tsushima.png';
+import ghost from './ghost.png';
 import gta from './gta.png';
 import rdr2 from './red_dead_2.png';
 import joyStick from './joy_stick 1.svg';

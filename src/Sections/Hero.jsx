@@ -2,7 +2,7 @@ import React from "react";
 import { joyStick } from "../assets/images";
 import { motion } from "framer-motion";
 import { cry1, unity, unreal } from "../assets/icons";
-import Button from "../Componenes/Button";
+import Button from "../Components/Button";
 const Hero = () => {
   const variants = {
     initial: {
@@ -47,7 +47,7 @@ const Hero = () => {
             3D Game Dev
           </motion.span>
         </motion.h2>
-        <motion.h1 className=" text-white sm:text-8xl text-6xl font-semibold font-palanquin leading-normal mt-4">
+        <motion.h1 className=" text-white sm:text-8xl text-6xl font-semibold font-montserrat leading-normal mt-4">
           Work that we <br />
           produce for our <br /> clients
         </motion.h1>

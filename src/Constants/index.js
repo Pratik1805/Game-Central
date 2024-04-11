@@ -2,30 +2,31 @@ import { cyberPunk, ghost, gta, rdr2 } from "../assets/images"
 
 export const navLinks = [
     { href: "#home", label: "Home"},
+    { href: "#trending", label: "Trending Games"},
     { href: "#about-us", label: "About Us"},
     { href: "#portfolio", label: "Portfolio"},
-    { href: "#news", label: "News"},
 ]
 
-export const trndingGames = [
+export const trendingGames = [
+    //TODO:ADD link to componenet
     {
         id:1,
-        title:"Grand Theft Auto",
+        href:"https://store.steampowered.com/agecheck/app/271590/",
         src:gta,
     },
     {
         id:2,
-        title:"Ghost Of Tsushima",
+        href:"https://store.steampowered.com/agecheck/app/2215430/",
         src:ghost,
     },
     {
         id:3,
-        title:"Red Dead Redemption 2",
+        href:"https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
         src:rdr2,
     },
     {
         id:4,
-        title:"CyberPunk 2077",
+        href:"https://store.steampowered.com/agecheck/app/1091500/",
         src:cyberPunk,
     }
 ]
