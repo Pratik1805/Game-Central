@@ -15,6 +15,7 @@ import testimonial2 from './testimonial2.svg';
 import testimonial3 from './testimonial3.svg';
 import wave1 from './wave1.svg';
 import wave2 from './wave2.svg';
+import serviceBg from './services_backdrop.png';
 
 export {
     cyberPunk,
@@ -34,5 +35,6 @@ export {
     testimonial3,
     wave1,
     wave2,
+    serviceBg,
 }
 

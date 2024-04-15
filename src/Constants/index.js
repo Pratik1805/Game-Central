@@ -1,3 +1,4 @@
+import { AR_VR_design, desktop, mobile, ps4, threeDModel, vr } from "../assets/icons"
 import { cyberPunk, ghost, gta, rdr2 } from "../assets/images"
 
 export const navLinks = [
@@ -29,4 +30,36 @@ export const trendingGames = [
         href:"https://store.steampowered.com/agecheck/app/1091500/",
         src:cyberPunk,
     }
+]
+export const services = [
+    {
+        id:1,
+        src: mobile,
+        title:"Mobile Game Development",
+    },
+    {
+        id:2,
+        src: desktop,
+        title: "PC Game Development",
+    },
+    {
+        id:3,
+        src: ps4,
+        title: "PS4 Game Development",
+    },
+    {
+        id:4,
+        src: vr,
+        title: "AR/VR Solutions",
+    },
+    {
+        id:5,
+        src: AR_VR_design,
+        title: "AR/VR design",
+    },
+    {
+        id:6,
+        src: threeDModel,
+        title: "3D Modelings",
+    },
 ]

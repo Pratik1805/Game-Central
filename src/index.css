@@ -12,22 +12,12 @@
     scroll-behavior: smooth; 
 }
 
-.bg-button-gradient{
-    background: linear-gradient(45deg, #8176AF, #C0B7E8);
-}
 
-.gradient{
-  background: -webkit-linear-gradient(#C0B7E8, #8176AF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.contact{
-  background: linear-gradient(45deg, #3A3456, #211E2E);
-}
-.Card{
-  background: radial-gradient(#433D60, #211E2E);
-}
 
+.service-background {
+  background-image: url('src/assets/images/services_backdrop.png');
+  filter: brightness(1); /* Adjust the brightness value as needed */
+}
 @layer components {
     .max-container {
       max-width: 1440px;

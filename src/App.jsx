@@ -1,5 +1,5 @@
 import Nav from "./Components/Nav";
-import { Hero, Trending } from "./Sections";
+import { Hero, Services, Trending } from "./Sections";
 
 function App() {
   return (
@@ -13,6 +13,9 @@ function App() {
         </section>
         <section className=" bg-primary padding" id='trending'>
           <Trending/>
+        </section>
+        <section className=" bg-primary padding" id='trending'>
+          <Services/>
         </section>
       </main>
     </>
