@@ -8,11 +8,6 @@ import Project1 from './Project1.svg';
 import Project2 from './Project2.svg';
 import Project3 from './Project3.svg';
 import Project4 from './Project4.svg';
-import Project5 from './Project5.svg';
-import Project6 from './Project6.svg';
-import testimonial1 from './testimonial1.svg';
-import testimonial2 from './testimonial2.svg';
-import testimonial3 from './testimonial3.svg';
 import wave1 from './wave1.svg';
 import wave2 from './wave2.svg';
 import serviceBg from './services_backdrop.png';
@@ -28,11 +23,6 @@ export {
     Project2,
     Project3,
     Project4,
-    Project5,
-    Project6,
-    testimonial1,
-    testimonial2,
-    testimonial3,
     wave1,
     wave2,
     serviceBg,

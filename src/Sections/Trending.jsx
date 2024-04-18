@@ -7,6 +7,7 @@ const Trending = () => {
   const trendVariants={
     initial:{
       opacity:0,
+      x:-100
     },
     animate: {
       x: 0,
