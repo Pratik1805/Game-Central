@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Components/Button";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 
 const Subscribe = () => {
   const subscribeVariants ={
@@ -13,6 +13,7 @@ const Subscribe = () => {
       opacity:1,
       transition: {
         duration: 1,
+        delay:0.5,
         staggerChildren: 0.1,
       },
     }

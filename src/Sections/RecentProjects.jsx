@@ -14,6 +14,7 @@ const RecentProjects = () => {
       opacity: 1,
       transition: {
         duration: 1,
+        delay:0.5,
         staggerChildren: 0.1,
       },
     },

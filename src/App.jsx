@@ -1,5 +1,5 @@
 import Nav from "./Components/Nav";
-import { ContactUs, Hero, RecentProjects, Services, Subscribe, Trending } from "./Sections";
+import { ContactUs, Footer, Hero, RecentProjects, Services, Subscribe, Trending } from "./Sections";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <section className=" bg-primary padding" id='trending'>
           <Services/>
         </section>
-        <section className=" bg-primary padding" id='trending'>
+        <section className=" bg-primary padding" id='projects'>
           <RecentProjects/>
         </section>
         <section className=" bg-primary padding" id='trending'>
@@ -25,6 +25,9 @@ function App() {
         </section>
         <section className=" bg-primary padding" id='trending'>
           <ContactUs/>
+        </section>
+        <section className=" bg-primary padding pb-8">
+          <Footer/>
         </section>
       </main>
     </>

@@ -1,4 +1,4 @@
-import { AR_VR_design, desktop, mobile, ps4, threeDModel, vr } from "../assets/icons"
+import { AR_VR_design, LinkedIn, desktop, facebook, instagram, mobile, ps4, threeDModel, twitter, vr } from "../assets/icons"
 import { Project1, Project2, Project3, Project4, cyberPunk, ghost, gta, rdr2 } from "../assets/images"
 
 export const navLinks = [
@@ -86,3 +86,23 @@ export const recentProjects = [
         title:"PS5 Game",
     },
 ]
+export const footerLinks = [
+    {
+        id:1,
+        title:"Portfolio",
+    },
+    {
+        id:2,
+        title:"Careers",
+    },
+    {
+        id:3,
+        title:"Contact Us",
+    },
+]
+export const socialMedia = [
+    { src: facebook, alt: "facebook logo" },
+    { src: instagram, alt: "twitter logo" },
+    { src: twitter, alt: "instagram logo" },
+    { src: LinkedIn, alt: "LinkedIn logo" },
+]; 
