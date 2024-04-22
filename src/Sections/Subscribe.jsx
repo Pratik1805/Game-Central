@@ -24,7 +24,7 @@ const Subscribe = () => {
       id="contact-us"
       variants={subscribeVariants}
       initial="initial"
-      whileInView="animate"
+      animate="animate"
     >
       <motion.div className=" flex flex-col items-start justify-center">
         <motion.h3 className=" text-4xl leading-[68px] lg:max-w-md font-montserrat font-semibold text-white">

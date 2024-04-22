@@ -22,7 +22,7 @@ const Footer = () => {
     <motion.footer
       className=" max-container "
       variants={footerVariants}
-      whileInView="animate"
+      animate="animate"
       initial="initial"
     >
       <motion.div className=" flex sm:flex-row flex-col justify-evenly">
@@ -74,7 +74,7 @@ const Footer = () => {
 
       <motion.div className=" flex items-center justify-center mt-4">
         <motion.h3 className=" text-white font-bold font-palanquin  text-center leading-normal ">
-          2024 © Gaming Platform LANDING PAGE - BY Sanoj Dilshan - ALL RIGHTS
+          2024 © Gaming Platform LANDING PAGE - <br /> Developed BY: <span className=" text-secondary">Pratik Pandey</span> and Design BY: Sanoj Dilshan - ALL RIGHTS
           RESERVED{" "}
         </motion.h3>
       </motion.div>

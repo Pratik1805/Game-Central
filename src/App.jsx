@@ -8,7 +8,7 @@ function App() {
         <section className=" bg-primary ">
           <Nav />
         </section>
-        <section className=" bg-primary padding">
+        <section className=" bg-primary padding" id="home">
           <Hero/>
         </section>
         <section className=" bg-primary padding" id='trending'>

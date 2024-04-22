@@ -101,6 +101,7 @@ export const footerLinks = [
     },
 ]
 export const socialMedia = [
+    //TODO:ADD Href to personal links
     { src: facebook, alt: "facebook logo" },
     { src: instagram, alt: "twitter logo" },
     { src: twitter, alt: "instagram logo" },

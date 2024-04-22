@@ -22,12 +22,12 @@ const ContactUs = () => {
   return (
     <motion.div
       id="join"
-      className="flex flex-col items-center justify-center sm:w-[60%] w-full m-auto shadow-xl rounded-3xl px-2 py-4"
+      className="flex flex-col items-center justify-center sm:w-[60%] w-full rounded-3xl px-2 py-4 overflow-hidden"
       variants={conatctVariants}
       initial="initial"
-      whileInView="animate"
+      animate="animate"
     >
-      <motion.div className=" ">
+      <motion.div className="w-full">
         <motion.h2
           className=" text-white font-semibold font-palanquin  sm:text-6xl text-3xl px-2 py-4
          text-center leading-normal"

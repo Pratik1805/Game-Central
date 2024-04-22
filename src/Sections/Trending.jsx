@@ -20,7 +20,7 @@ const Trending = () => {
     },
   }
   return (
-    <motion.div className='flex flex-col items-center justify-center max-container mt-2' variants={trendVariants} initial="initial" whileInView="animate">
+    <motion.div className='flex flex-col items-center justify-center max-container mt-2' variants={trendVariants} initial="initial" animate="animate">
         <motion.h1 className=' text-white text-4xl font-montserrat font-semibold text-center '>Currently Trending Games</motion.h1>
 
         <motion.div className=' mt-8 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-20 gap-4'>
