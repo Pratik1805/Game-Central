@@ -6,10 +6,10 @@ const Footer = () => {
   const footerVariants = {
     initial: {
       opacity: 0,
-      x: 100,
+      
     },
     animate: {
-      x: 0,
+    
       opacity: 1,
       transition: {
         duration: 1,
@@ -22,7 +22,7 @@ const Footer = () => {
     <motion.footer
       className=" max-container "
       variants={footerVariants}
-      animate="animate"
+      whileInView="animate"
       initial="initial"
     >
       <motion.div className=" flex sm:flex-row flex-col justify-evenly">

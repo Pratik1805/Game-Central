@@ -22,10 +22,10 @@ const ContactUs = () => {
   return (
     <motion.div
       id="join"
-      className="flex flex-col items-center justify-center sm:w-[60%] w-full rounded-3xl px-2 py-4 overflow-hidden"
+      className="flex flex-col items-center justify-center sm:w-[60%] w-full rounded-3xl px-2 py-4 overflow-hidden m-auto"
       variants={conatctVariants}
       initial="initial"
-      animate="animate"
+      whileInView="animate"
     >
       <motion.div className="w-full">
         <motion.h2

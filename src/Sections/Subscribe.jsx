@@ -6,10 +6,10 @@ const Subscribe = () => {
   const subscribeVariants ={
     initial:{
       opacity:0,
-      x:100,
+   
     },
     animate:{
-      x:0,
+   
       opacity:1,
       transition: {
         duration: 1,
@@ -24,7 +24,7 @@ const Subscribe = () => {
       id="contact-us"
       variants={subscribeVariants}
       initial="initial"
-      animate="animate"
+      whileInView="animate"
     >
       <motion.div className=" flex flex-col items-start justify-center">
         <motion.h3 className=" text-4xl leading-[68px] lg:max-w-md font-montserrat font-semibold text-white">

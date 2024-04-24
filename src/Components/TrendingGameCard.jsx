@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { fire } from "../assets/icons";
 import Button from "./Button";
+import GameDescription from "./GameDescription";
 
-const TrendingGameCrad = ({ id, href, src }) => {
+
+const TrendingGameCrad = ({ id, href, src,Title,link,Description,read }) => {
+  const [showDescription,setShowDescription] = useState(false);
+  const toggleDescription = () => {
+    setShowDescription(!showDescription);
+  }
   return (
     <div
       className=" flex justify-center items-center flex-col rounded-md mt-2"
@@ -20,7 +26,9 @@ const TrendingGameCrad = ({ id, href, src }) => {
         </p>
       </div>
         //TODO:ADD Routing here
-        <Button label={"Read More"} />
+        <Button label={"Read More"} onClick = {toggleDescription}/>
+
+        {showDescription && <GameDescription title={Title} description={Description} src={src} href={href} link ={link} read={read}/>}
       
     </div>
   );

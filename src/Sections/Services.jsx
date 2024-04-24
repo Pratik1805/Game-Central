@@ -5,10 +5,10 @@ const Services = () => {
   const serviceVariants = {
     initial: {
       opacity: 0,
-      x:100,
+      
     },
     animate: {
-      x: 0,
+      
       opacity: 1,
       transition: {
         duration: 1,
@@ -23,7 +23,7 @@ const Services = () => {
       className=" flex items-center justify-center flex-col max-container px-2 py-4 service-background bg-center bg-no-repeat bg-cover "
       variants={serviceVariants}
       initial="initial"
-      animate="animate"
+      whileInView="animate"
     >
       <motion.div className=" flex items-center justify-center w-full px-2 py-4">
         <motion.h1 className=" text-white sm:text-6xl text-4xl font-montserrat font-semibold text-center">
