@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Components/Button";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Subscribe = () => {
   const subscribeVariants ={

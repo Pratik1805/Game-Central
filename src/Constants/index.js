@@ -1,4 +1,4 @@
-import { AR_VR_design, LinkedIn, desktop, facebook, instagram, mobile, ps4, threeDModel, twitter, vr } from "../assets/icons"
+import { AR_VR_design, LinkedIn, desktop, facebook, instagram, mobile, person1, person2, person3, person4, ps4, threeDModel, twitter, vr } from "../assets/icons"
 import { Project1, Project2, Project3, Project4, cyberPunk, ghost, gta, rdr2 } from "../assets/images"
 
 export const navLinks = [
@@ -117,6 +117,33 @@ export const footerLinks = [
         id:3,
         title:"Contact Us",
     },
+]
+export const team = [
+    {
+        id:1,
+        name:"Pratik Pandey",
+        position:"CEO",
+        src:person1,
+    },
+    {
+        id:1,
+        name:"Anushka Sen",
+        position:"Product Manager",
+        src:person2,
+    },
+    {
+        id:1,
+        name:"Ramsey",
+        position:"Senior Software Developer",
+        src:person3,
+    },
+    {
+        id:1,
+        name:"Tej",
+        position:"Animation Head",
+        src:person4,
+    },
+    
 ]
 export const socialMedia = [
     //TODO:ADD Href to personal links

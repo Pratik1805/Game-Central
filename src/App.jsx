@@ -1,6 +1,15 @@
 import Nav from "./Components/Nav";
-import { ContactUs, Footer, Hero, RecentProjects, Services, Subscribe, Trending } from "./Sections";
 
+import {
+  About,
+  ContactUs,
+  Footer,
+  Hero,
+  RecentProjects,
+  Services,
+  Subscribe,
+  Trending,
+} from "./Sections";
 function App() {
   return (
     <>
@@ -9,26 +18,30 @@ function App() {
           <Nav />
         </section>
         <section className=" bg-primary padding" id="home">
-          <Hero/>
+          <Hero />
         </section>
-        <section className=" bg-primary padding" id='trending'>
-          <Trending/>
+
+        <section className=" bg-primary padding" id="trending">
+          <Trending />
         </section>
-        <section className=" bg-primary padding" id='trending'>
-          <Services/>
+
+        <section className=" bg-primary padding" id="trending">
+          <Services />
         </section>
-        <section className=" bg-primary padding" id='projects'>
-          <RecentProjects/>
+        <section className=" bg-primary padding" id="projects">
+          <RecentProjects />
         </section>
-        <section className=" bg-primary padding" id='trending'>
-          <Subscribe/>
+        <section className=" bg-primary padding" id="trending">
+          <Subscribe />
         </section>
-        <section className=" bg-primary padding" id='trending'>
-          <ContactUs/>
+        <section className=" bg-primary padding" id="trending">
+          <ContactUs />
         </section>
         <section className=" bg-primary padding pb-8">
-          <Footer/>
+          <Footer />
         </section>
+
+        {/* <About/> */}
       </main>
     </>
   );

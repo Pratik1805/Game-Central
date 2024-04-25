@@ -3,11 +3,13 @@ import { fire } from "../assets/icons";
 import Button from "./Button";
 import GameDescription from "./GameDescription";
 
-
 const TrendingGameCrad = ({ id, href, src,Title,link,Description,read }) => {
   const [showDescription,setShowDescription] = useState(false);
+
+
   const toggleDescription = () => {
     setShowDescription(!showDescription);
+
   }
   return (
     <div
