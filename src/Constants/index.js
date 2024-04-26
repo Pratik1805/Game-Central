@@ -4,8 +4,9 @@ import { Project1, Project2, Project3, Project4, cyberPunk, ghost, gta, rdr2 } f
 export const navLinks = [
     { href: "#home", label: "Home"},
     { href: "#trending", label: "Trending Games"},
+    { href: "#services", label: "Our Services"},
     { href: "#projects", label: "Our Projects"},
-    { href: "#about", label: "About us"},
+    
 ]
 
 export const trendingGames = [

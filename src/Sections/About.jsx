@@ -13,15 +13,16 @@ const aboutVariants={
     opacity: 1,
     transition: {
       duration: 1,
+      delay:0.5,
       staggerChildren: 0.1,
-      delay: 0.5,
+
     },
   },
 }
 
 const About = () => {
   return (
-    <motion.section className=" bg-primary padding" variants={aboutVariants} initial="initial" whileInView="animate">
+    <motion.section className=" bg-primary padding" variants={aboutVariants} initial="initial" animate="animate">
       <motion.div className=" w-full flex flex-col items-center justify-center gap-4 px-2 py-4">
         <motion.div className=" flex flex-col justify-center items-start gap-2 px-2 py-4">
           <motion.h1 className=" text-secondary font-palanquin  font-bold text-6xl leading-normal">

@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { gaming, hamburger } from "../assets/icons";
 import { navLinks } from "../Constants";
 import Button from "./Button";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
+import{Link} from 'react-router-dom';
 const Nav = () => {
   const variants = {
     initial: {
@@ -14,8 +15,8 @@ const Nav = () => {
       opacity: 1,
       transition: {
         duration: 1,
+        delay:0.5,
         staggeredchildren: 0.5,
-        delay: 0.5,
       },
     },
   };
@@ -63,7 +64,10 @@ const Nav = () => {
             </motion.li>
           ))}
           <motion.div>
-            <Button label="Contact Us" />
+            <Link to="/about"><Button label="About Us" /></Link>
+          </motion.div>
+          <motion.div>
+            <Link to='/contact'><Button label="Contact Us" /></Link>
           </motion.div>
         </motion.ul>
       </motion.div>

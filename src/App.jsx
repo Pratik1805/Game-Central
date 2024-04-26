@@ -10,39 +10,54 @@ import {
   Subscribe,
   Trending,
 } from "./Sections";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <main className="relative ">
-        <section className=" bg-primary ">
-          <Nav />
-        </section>
-        <section className=" bg-primary padding" id="home">
-          <Hero />
-        </section>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Nav />
+                <Hero />
+                <Trending />
+                <Services />
 
-        <section className=" bg-primary padding" id="trending">
-          <Trending />
-        </section>
+                <RecentProjects />
 
-        <section className=" bg-primary padding" id="trending">
-          <Services />
-        </section>
-        <section className=" bg-primary padding" id="projects">
-          <RecentProjects />
-        </section>
-        <section className=" bg-primary padding" id="trending">
-          <Subscribe />
-        </section>
-        <section className=" bg-primary padding" id="trending">
-          <ContactUs />
-        </section>
-        <section className=" bg-primary padding pb-8">
-          <Footer />
-        </section>
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <>
+                <Nav />
+                <Subscribe />
 
-        {/* <About/> */}
-      </main>
+                <ContactUs />
+
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <>
+                <Nav />
+                <About />
+                <Footer />
+              </>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
