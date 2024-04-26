@@ -1,3 +1,4 @@
+import GameDescription from "./Components/GameDescription";
 import Nav from "./Components/Nav";
 
 import {
@@ -22,14 +23,16 @@ function App() {
             path="/"
             element={
               <>
-                <Nav />
-                <Hero />
-                <Trending />
-                <Services />
+                <section className=" bg-primary">
+                  <Nav />
+                  <Hero />
+                  <Trending />
+                  <Services />
 
-                <RecentProjects />
+                  <RecentProjects />
 
-                <Footer />
+                  <Footer />
+                </section>
               </>
             }
           />
@@ -37,12 +40,14 @@ function App() {
             path="/contact"
             element={
               <>
-                <Nav />
-                <Subscribe />
+                <section className=" bg-primary">
+                  <Nav />
+                  <Subscribe />
 
-                <ContactUs />
+                  <ContactUs />
 
-                <Footer />
+                  <Footer />
+                </section>
               </>
             }
           />
@@ -50,9 +55,23 @@ function App() {
             path="/about"
             element={
               <>
-                <Nav />
-                <About />
-                <Footer />
+                <section className=" bg-primary">
+                  <Nav />
+                  <About />
+                  <Footer />
+                </section>
+              </>
+            }
+          />
+
+          <Route
+            path="/description"
+            element={
+              <>
+                <section className=" bg-primary padding h-screen">
+                  <GameDescription />
+                  
+                </section>
               </>
             }
           />

@@ -2,10 +2,10 @@ import { AR_VR_design, LinkedIn, desktop, facebook, instagram, mobile, person1, 
 import { Project1, Project2, Project3, Project4, cyberPunk, ghost, gta, rdr2 } from "../assets/images"
 
 export const navLinks = [
-    { href: "#home", label: "Home"},
-    { href: "#trending", label: "Trending Games"},
-    { href: "#services", label: "Our Services"},
-    { href: "#projects", label: "Our Projects"},
+    { href: "#home", label: "Home",path:"/"},
+    { href: "#trending", label: "Trending Games", path:"/"},
+    { href: "#services", label: "Our Services", path:"/"},
+    { href: "#projects", label: "Our Projects", path:"/"},
     
 ]
 
@@ -19,7 +19,7 @@ export const trendingGames = [
         Description:"Grand Theft Auto (GTA) is the iconic open-world action-adventure series developed by Rockstar Games. Explore vast cities, engage in thrilling missions, and immerse yourself in the criminal underworld. With dynamic gameplay, immersive storylines, and a thriving online community, GTA offers an unparalleled gaming experience. Join us and embark on an adventure unlike any other.",
         link:"https://youtu.be/QdBZY2fkU-0?si=7N3gGb6wwDfO7u_w",
         read:"https://www.rockstargames.com/VI",
-        read:"https://www.rockstargames.com/VI",
+        
     },
     {
         id:2,

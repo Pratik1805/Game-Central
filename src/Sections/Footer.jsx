@@ -11,7 +11,7 @@ const Footer = () => {
       opacity: 1,
       transition: {
         duration: 1,
-        delay:0.5,
+        delay: 0.5,
         staggerChildren: 0.1,
       },
     },
@@ -72,10 +72,16 @@ const Footer = () => {
         <motion.hr className=" mt-4" />
 
         <motion.div className=" flex items-center justify-center mt-4">
-          <motion.h3 className=" text-white font-bold font-palanquin  text-center leading-normal ">
+          <motion.h3 className=" text-white font-bold font-palanquin  text-center leading-normal text-2xl ">
             2024 © Gaming Platform LANDING PAGE - <br /> Developed BY:{" "}
-            <span className=" text-secondary">Pratik Pandey</span> and Design
-            BY: Sanoj Dilshan - ALL RIGHTS RESERVED{" "}
+            <a
+              href="
+        https://www.linkedin.com/in/pratik-pandey-527994220/"
+              target="_blank"
+            >
+              <span className=" text-secondary">Pratik Pandey</span>
+            </a>{" "}
+            and Design BY: Sanoj Dilshan - ALL RIGHTS RESERVED{" "}
           </motion.h3>
         </motion.div>
       </motion.footer>
