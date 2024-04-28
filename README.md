@@ -2,7 +2,7 @@
 
 Game Central is a project that aims to provide a virtual reality experience. This repository contains the source code and configuration files necessary to run and develop the project.
 
-Link: https://hydra-vr-git-main-pratik1805s-projects.vercel.app/
+Link: https://game-central-three.vercel.app/
 
 ## Features
 
