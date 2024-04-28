@@ -1,21 +1,46 @@
-import React, { useState } from "react";
+import { React } from "react";
 import { fire } from "../assets/icons";
 import Button from "./Button";
-import GameDescription from "./GameDescription";
 import { Link } from "react-router-dom";
-
-const TrendingGameCrad = ({ id, href, src, Title, link, Description, read }) => {
+import { motion } from "framer-motion";
+const TrendingGameCrad = ({
+  id,
+  href,
+  src,
+  Title,
+  link,
+  Description,
+  read,
+}) => {
   // const [showDescription, setShowDescription] = useState(false);
-  
+
   // const toggleDescription = () => {
   //   setShowDescription(!showDescription);
   // }
 
-
- return (
-    <div
+  const gameCardVariants = {
+    initial: {
+      opacity: 0,
+      x: -100,
+    },
+    animate: {
+      x: 0,
+      opacity: 1,
+      transition: {
+        duration: 1,
+        delay: 0.5,
+        staggerChildren: 0.1,
+      },
+    },
+  };
+  return (
+    <motion.div
       className="flex justify-center items-center flex-col rounded-md mt-2"
       key={id}
+      variants={gameCardVariants}
+      initial="initial"
+      whileInView="animate"
+      viewport={{ once: true }}
     >
       <div className="overflow-hidden bg-center bg-cover rounded-md bg-no-repeat bg-white px-2 py-4 hover:border-secondary border-4">
         <a href={href} target="_blank" rel="noopener noreferrer">
@@ -29,13 +54,22 @@ const TrendingGameCrad = ({ id, href, src, Title, link, Description, read }) => 
         </p>
       </div>
 
-      <Link to='/description'
-            state={{ title: Title, Link:link, description:Description,Read:read, Href:href, SRC:src }}>
+      <Link
+        to="/description"
+        state={{
+          title: Title,
+          Link: link,
+          description: Description,
+          Read: read,
+          Href: href,
+          SRC: src,
+        }}
+      >
         <Button label={"Read More"} />
       </Link>
       {/* {showDescription && <GameDescription title={Title} description={Description} src={src} href={href} link={link} read={read} />} */}
-    </div>
- );
+    </motion.div>
+  );
 };
 
 export default TrendingGameCrad;

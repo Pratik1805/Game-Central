@@ -28,6 +28,7 @@ const Nav = () => {
       variants={variants}
       initial="initial"
       animate="animate"
+      viewport={{ once: true }}
     >
       <motion.div className="md:flex items-center justify-evenly py-4 md:px-10 px-7 w-full gap-4">
         <Link to="/">

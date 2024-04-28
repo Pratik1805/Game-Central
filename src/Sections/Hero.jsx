@@ -38,7 +38,8 @@ const Hero = () => {
     id="home"
     variants={variants}
           initial="initial"
-          animate="animate">
+          animate="animate"
+          viewport={{ once: true }}>
       <motion.div className=" flex  max-container gap-4 justify-center  max-sm:flex-col padding-y ">
         <motion.div
           className=" w-full px-2 py-4 max-sm:text-center "

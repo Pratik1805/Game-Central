@@ -27,6 +27,7 @@ const Trending = () => {
       variants={trendVariants}
       initial="initial"
       animate="animate"
+      viewport={{ once: true }}
     >
       <motion.div className="flex flex-col items-center justify-center max-container mt-2 ">
         <motion.h1 className=" text-white text-4xl font-montserrat font-semibold text-center ">

@@ -68,10 +68,7 @@ function App() {
             path="/description"
             element={
               <>
-                <section className=" bg-primary padding h-screen">
-                  <GameDescription />
-                  
-                </section>
+                <GameDescription />
               </>
             }
           />
